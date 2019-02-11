@@ -1,13 +1,12 @@
 ---
 layout: post
 title:  "Vectors"
-date:   2018-05-08 00:05:00 +0000
-categories: [math, vectors] 
+date:   2019-02-11 00:05:00 +0000
+categories: [math, calculus] 
 comments: true
 ---
 
-Todo: set up static interactive scripts
-
+$$ f_{x+1} = x^3 - 2x^2 $$
 
 
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
