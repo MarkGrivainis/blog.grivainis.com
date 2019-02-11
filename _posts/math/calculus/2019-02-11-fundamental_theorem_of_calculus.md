@@ -3,7 +3,6 @@ layout: post
 title:  "The Fundamental Theorem of Calculus"
 date:   2019-02-11 00:05:00 +0000
 categories: [math, calculus] 
-comments: true
 ---
 
 $$ f_{x+1} = x^3 - 2x^2 $$
