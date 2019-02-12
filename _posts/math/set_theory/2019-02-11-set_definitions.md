@@ -2,7 +2,7 @@
 layout: post
 title:  "Set Theory Definitions"
 date:   2019-02-11 00:05:00 +0000
-categories: [math, set theory] 
+categories: [math, set-theory] 
 ---
 
 
@@ -12,7 +12,7 @@ $$ A \cup B = \{x: x \in A \text{ or } x \in B\} $$
 Your browser does not support the HTML5 canvas tag.</canvas>
 
 
-<script src='assets/js/plots/plotter.js'></script>
+<script src='/assets/js/plots/plotter.js'></script>
 
 <script>
 new Plot("union", {
