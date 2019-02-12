@@ -16,13 +16,14 @@ Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
 new Plot("union", {
-	objects: [
-		{
-			'type': 'disk',
-			'radius': 1,
-			'fill': 'red',
-			'x': 1,
-			'y': 1
-		}
-	]
+		'objects': [
+			{
+				'type': 'disk',
+				'radius': 40,
+				'fill': 'red',
+				'x': 5,
+				'y': 0.5
+			}
+		]
+	});
 </script>

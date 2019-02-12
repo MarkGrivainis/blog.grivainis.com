@@ -1,9 +1,17 @@
 class Plot {
-    constructor(canvasName, objectList){
+    constructor(canvasName, inputs){
         var c = document.getElementById(canvasName);
         var ctx = c.getContext("2d");
-        ctx.beginPath();
-        ctx.arc(5,5,40,0,2*Math.PI);
-        ctx.stroke();
+        for (var object of inputs.objects) {
+            ctx.beginPath();
+            ctx.arc(
+                object.x,
+                c.height * object.y,
+                object.radius,
+                0,
+                2*Math.PI
+            );
+            ctx.stroke();
+        }
     }
 };
